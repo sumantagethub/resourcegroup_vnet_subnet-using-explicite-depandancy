@@ -1,0 +1,2 @@
+# resourcegroup_vnet_subnet-using-explicite-depandancy
+resourcegroup_vnet_subnet using explicite depandancy
