@@ -20,3 +20,11 @@ resource "azurerm_subnet" "subnet" {
   virtual_network_name = each.value.virtual_network_name
   address_prefixes     = each.value.address_prefixes
 }
+
+resource_groups = {
+
+rg1 = {
+name = "humana-rg"
+location = "East US"
+}
+
